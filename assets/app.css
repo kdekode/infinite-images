@@ -1,23 +1,28 @@
 body{
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    
 }
 
 #main__kdk{
+    position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
     display: flex;
 }
 
-#main__kdk img{
+#main__kdk .imagen-flotante{
     position: absolute;
-    width: 250px;
-    height: 250px;   
+    opacity: 0;
+    object-fit: cover;
+    pointer-events: none;
+    will-change: transform, opacity;
 }
 
 #txt__kdk{
+    position: relative;
+    z-index: 1;
     margin: auto;
     width: 50%;
     text-align: center;
