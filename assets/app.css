@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#main__kdk{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+#main__kdk img{
+    position: absolute;
+    width: 250px;
+    height: 250px;   
+}
+
+#txt__kdk{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
